@@ -245,6 +245,26 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\ahmed\\Documents\\GitHub\\Examen-agence.net\\Examen\\UI.Web\\wwwroot\\uploads\\badge_farouk.png",
+      "PackagePath": "staticwebassets\\uploads\\badge_farouk.png"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\Documents\\GitHub\\Examen-agence.net\\Examen\\UI.Web\\wwwroot\\uploads\\farouk.jpg",
+      "PackagePath": "staticwebassets\\uploads\\farouk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\Documents\\GitHub\\Examen-agence.net\\Examen\\UI.Web\\wwwroot\\uploads\\photo.png",
+      "PackagePath": "staticwebassets\\uploads\\photo.png"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\Documents\\GitHub\\Examen-agence.net\\Examen\\UI.Web\\wwwroot\\uploads\\radhouen.jpg",
+      "PackagePath": "staticwebassets\\uploads\\radhouen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ahmed\\Documents\\GitHub\\Examen-agence.net\\Examen\\UI.Web\\wwwroot\\uploads\\salim.jpg",
+      "PackagePath": "staticwebassets\\uploads\\salim.jpg"
+    },
+    {
       "Id": "C:\\Users\\ahmed\\Documents\\GitHub\\Examen-agence.net\\Examen\\UI.Web\\wwwroot\\uploads\\salim.png",
       "PackagePath": "staticwebassets\\uploads\\salim.png"
     },

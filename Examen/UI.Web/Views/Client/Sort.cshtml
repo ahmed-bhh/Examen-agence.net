@@ -1,20 +1,11 @@
 ﻿@model IEnumerable<ApplicationCore.Domain.Client>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Sort";
 }
 
-<h1>Index</h1>
-<form asp-action="index">
-    <fieldset>
-        <legend> Recherche</legend>
-        Saisir un login :
-        <input type="text" name="loginSearch" />
-        <input type="submit" value="Serach" />
-        <input type="submit" value="Sort" asp-controller="Client" asp-action="Sort" />
+<h1>Sort</h1>
 
-    </fieldset>
-</form>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -51,21 +42,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Password)
             </td>
-                <td>
-
-                    <img src="~/uploads/@item.Photo" width="50" height="50">
-
-                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Photo)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ConseillerFK)
             </td>
-            <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Identifiant }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.Identifiant }) |
-                @Html.ActionLink("Delete", "Delete", new {  id=item.Identifiant })
-                    <a asp-controller="Conseiller" asp-action="Details" asp-route-id="@item.ConseillerFK">ConseillerDetails</a>
-
-            </td>
+            
         </tr>
 }
     </tbody>

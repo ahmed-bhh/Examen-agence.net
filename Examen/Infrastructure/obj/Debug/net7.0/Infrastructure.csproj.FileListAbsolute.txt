@@ -32,3 +32,4 @@ C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\Infrastructure\obj\Debu
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json

@@ -11,5 +11,6 @@ namespace ApplicationCore.Interfaces
     {
         double TotalPayements(Client client);
         int NombreReservation(Client client);
+        IEnumerable<Client> SortClients();
     }
 }

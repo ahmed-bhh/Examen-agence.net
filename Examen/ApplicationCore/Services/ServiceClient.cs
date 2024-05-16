@@ -23,6 +23,11 @@ namespace ApplicationCore.Services
                 .Where(r=>r.DateReservation.Year==DateTime.Now.Year).Count();
         }
 
+        public IEnumerable<Client> SortClients()
+        {
+            return GetMany().OrderBy(c=>c.Identifiant);
+        }
+
         public double TotalPayements(Client client)
         {
             return client.Reservations

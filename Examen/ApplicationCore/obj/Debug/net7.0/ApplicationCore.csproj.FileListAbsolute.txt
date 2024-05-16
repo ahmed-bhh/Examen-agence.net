@@ -22,3 +22,4 @@ C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\ApplicationCore\obj\Deb
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json

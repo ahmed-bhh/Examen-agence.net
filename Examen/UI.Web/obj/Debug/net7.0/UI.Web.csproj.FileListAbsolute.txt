@@ -516,3 +516,4 @@ C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\UI.Web\obj\Debug\net7.0
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\UI.Web\obj\Debug\net7.0\UI.Web.pdb
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\UI.Web\obj\Debug\net7.0\UI.Web.genruntimeconfig.cache
 C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\UI.Web\obj\Debug\net7.0\ref\UI.Web.dll
+C:\Users\ahmed\Documents\GitHub\Examen-agence.net\Examen\UI.Web\obj\Debug\net7.0\UI.Web.sourcelink.json

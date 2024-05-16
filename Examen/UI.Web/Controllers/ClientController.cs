@@ -32,7 +32,7 @@ namespace UI.Web.Controllers
         // GET: ClientController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return View(sc.GetById(id));
         }
 
         // GET: ClientController/Create
@@ -81,16 +81,20 @@ namespace UI.Web.Controllers
         // GET: ClientController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            ViewBag.listConseiller = new SelectList(scons.GetMany(), "ConseillerId", "Nom");
+
+            return View(sc.GetById(id));
         }
 
         // POST: ClientController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Client collection)
         {
             try
             {
+                sc.Update(collection);
+                sc.Commit();
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -102,7 +106,7 @@ namespace UI.Web.Controllers
         // GET: ClientController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(sc.GetById(id));
         }
 
         // POST: ClientController/Delete/5
@@ -112,6 +116,8 @@ namespace UI.Web.Controllers
         {
             try
             {
+                sc.Delete(sc.GetById(id));
+                sc.Commit();
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -119,5 +125,10 @@ namespace UI.Web.Controllers
                 return View();
             }
         }
+        public ActionResult Sort()
+        {
+            return View(sc.SortClients());
+        }
+
     }
 }
